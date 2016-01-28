@@ -12,9 +12,9 @@ func main(arguments: [String]) {
     guard let HOME = NSProcessInfo.processInfo().environment["HOME"] else {
         return
     }
-    
-    guard let db = MMDB("\(HOME)/Desktop/GeoLite2-Country.mmdb") else {
-        print("failed to open db.")
+    let path = "\(HOME)/github/MMDB-Swift/MMDB/GeoLite2-Country.mmdb"
+    guard let db = MMDB(path) else {
+        print("failed to open db.\(path)")
         return
     }
     
