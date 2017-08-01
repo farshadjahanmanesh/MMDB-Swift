@@ -8,8 +8,8 @@
 
 import Foundation
 
-func main(arguments: [String]) {
-    guard let HOME = NSProcessInfo.processInfo().environment["HOME"] else {
+func main(_ arguments: [String]) {
+    guard let HOME = ProcessInfo.processInfo.environment["HOME"] else {
         return
     }
     let path = "\(HOME)/github/MMDB-Swift/MMDB/GeoLite2-Country.mmdb"
@@ -25,4 +25,4 @@ func main(arguments: [String]) {
     }
 }
 
-main(Process.arguments)
+main(CommandLine.arguments)
