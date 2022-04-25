@@ -5,7 +5,7 @@
 //  Created by Lex on 12/16/15.
 //  Copyright © 2017 lexrus.com. All rights reserved.
 //
-
+@_exported import libmaxminddb
 import Foundation
 
 public struct MMDBContinent {
