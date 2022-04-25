@@ -8,7 +8,7 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
-        .target(name: "MMDB", dependencies: ["libmaxminddb"],publicHeadersPath: ".",path:"Sources"),
+        .target(name: "MMDB", dependencies: ["libmaxminddb"], publicHeadersPath: "."),
         .testTarget(name: "MMDBTests", dependencies: ["MMDB"],exclude: ["Info-OSX.plist","Info-iOS.plist"]),
         .target(name: "libmaxminddb", publicHeadersPath: "."),
     ]
