@@ -58,14 +58,14 @@
 		366F5FE81F052F7F00DE3883 /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		366F5FF31F05301400DE3883 /* MMDBTests-OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MMDBTests-OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		366F5FF71F05301400DE3883 /* Info-OSX.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-OSX.plist"; sourceTree = "<group>"; };
-		D716CB321C21432C00D89B5C /* MMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MMDB.swift; path = ../Sources/MMDB.swift; sourceTree = "<group>"; };
+		D716CB321C21432C00D89B5C /* MMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MMDB.swift; path = MMDB/MMDB.swift; sourceTree = "<group>"; };
 		D716CB3F1C2269D200D89B5C /* maxminddb_unions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = maxminddb_unions.c; sourceTree = "<group>"; };
 		D716CB401C2269D200D89B5C /* maxminddb_unions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maxminddb_unions.h; sourceTree = "<group>"; };
 		D716CB471C23A58700D89B5C /* MMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D716CB4B1C23A58700D89B5C /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-iOS.plist"; path = "../Sources/Info-iOS.plist"; sourceTree = "<group>"; };
 		D716CB541C23A5DC00D89B5C /* MMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D716CB581C23A5DC00D89B5C /* Info-OSX.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-OSX.plist"; path = "../Sources/Info-OSX.plist"; sourceTree = "<group>"; };
-		D736A9891C23DD190070EAA3 /* MMDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MMDB.h; path = ../Sources/MMDB.h; sourceTree = "<group>"; };
+		D736A9891C23DD190070EAA3 /* MMDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MMDB.h; path = MMDB/MMDB.h; sourceTree = "<group>"; };
 		D73CAECC1C21A7A2000C2132 /* maxminddb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = maxminddb.c; sourceTree = "<group>"; };
 		D73CAECE1C21A7B0000C2132 /* maxminddb_config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maxminddb_config.h; sourceTree = "<group>"; };
 		D73CAECF1C21A7B0000C2132 /* maxminddb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maxminddb.h; sourceTree = "<group>"; };
@@ -533,7 +533,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "${SRCROOT}/MMDB";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -584,7 +584,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "${SRCROOT}/MMDB";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
