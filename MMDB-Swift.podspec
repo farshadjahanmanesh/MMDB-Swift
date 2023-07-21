@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, :osx
 
   s.swift_version = "5.0"
-  s.ios.deployment_target = "8.0"
+  s.ios.deployment_target = "14.0"
   s.osx.deployment_target = "11"
 
   s.source       = { :git => "https://github.com/lexrus/MMDB-Swift.git",
